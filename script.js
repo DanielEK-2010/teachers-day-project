@@ -33,19 +33,19 @@ var CONFIG = {
 
   // Teks papan tulis. emoji = stiker setelah kalimat selesai, shake = layar bergetar
   jokes: [
-    { text: "Tenang Sir Ang, ini bukan prank terakhir kok. 😎", emoji: "😎" },
-    { text: "Eh bercanda... hadiahnya yang asli ada di bawah. 🤭", emoji: "🤭", shake: true },
-    { text: "Maaf ya, kelas kami memang nakal. 😅", emoji: "🙏" },
-    { text: "Kalau ada yang bilang kami murid sempurna, itu hoaks wkwkwk 🤣", emoji: "🤣", shake: true },
-    { text: "Tapi serius, habis ini siap-siap baper ya. 🥹", emoji: "🥹" }
-  ],
+     { text: "Tenang Sir Ang, ini bukan prank terakhir kok. Masih ada season 2. 😎", emoji: "😎" },
+     { text: "Eh, jangan senang dulu... plot twist-nya masih banyak. 🤭", emoji: "🤭", shake: true },
+     { text: "Mohon maaf kalau ekspektasinya terlalu tinggi, kami juga kaget. 😅", emoji: "🙏" },
+     { text: "Kalau ada yang bilang semuanya berjalan sesuai rencana, itu fitnah. WKWKWK 🤣", emoji: "🤣", shake: true },
+     { text: "Tapi serius, habis ini siap-siap senyum sendiri ya. 🥹", emoji: "🥹" }
+   ],
 
   // Isi surat (satu item = satu paragraf)
   letter: [
-    "Terima kasih sudah menjadi wali kelas yang sabar membimbing kami, bukan hanya di pelajaran, tapi juga saat kami sedang bingung dan salah arah.",
-    "Maaf kalau selama ini kami sering ribut, telat, nakal, atau bikin sir pusing. Di balik itu semua, kami tahu perhatian dan nasihat sir selalu untuk kebaikan kami.",
-    "Semoga sir selalu sehat, bahagia, dan dimudahkan urusannya. Ilmu dan kebaikan yang diberikan akan kami bawa terus. Selamat Hari Guru! 💛"
-  ],
+  "Terima kasih, Sir, karena sudah menjadi sosok yang bukan hanya mengajarkan kami banyak hal, tetapi juga membimbing, mengingatkan, dan menguatkan kami di saat kami membutuhkan arahan. Mungkin tidak semua nasihat sir langsung kami pahami, tetapi suatu hari nanti kami akan mengerti betapa berharganya semua itu.",
+  "Maaf jika selama ini ada sikap, perkataan, atau perbuatan kami yang pernah membuat sir lelah dan kecewa. Kami mungkin belum selalu bisa menjadi murid yang sempurna, tetapi kami sangat menghargai setiap kesabaran, perhatian, dan waktu yang telah sir berikan. Percayalah, hal-hal kecil yang sir lakukan memiliki arti lebih besar daripada yang sir bayangkan.",
+  "Semoga sir selalu diberikan kesehatan, kebahagiaan, dan kemudahan dalam setiap langkah. Terima kasih telah menjadi bagian dari perjalanan hidup kami. Mungkin waktu akan berlalu dan banyak hal akan terlupakan, tetapi kebaikan, ilmu, dan kenangan bersama sir akan selalu menjadi bagian yang berharga untuk kami. Selamat Hari Guru, Sir Ang! 💛"
+],
 
   // Foto: taruh file di folder "photos" lalu sesuaikan nama dan caption.
   photos: [
