@@ -4,7 +4,7 @@
 var CONFIG = {
   teacher:   "Sir Ang",   // contoh: "Bu Sari"
   sender:    "Totot, Xenon, Darrel",
-  className: "XID",
+  className: "",
 
   // false = animasi SELALU jalan (disarankan).
   // true  = animasi dimatikan kalau HP diatur "Hapus animasi" / mode hemat daya.
