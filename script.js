@@ -25,7 +25,7 @@ var CONFIG = {
   loadingMessages: [
     "Menyiapkan hadiah…",
     "Membungkus hadiah pakai pita…",
-    "Memeriksa apakah {guru} sudah sarapan…",
+    "Memeriksa apakah Sir Ang sudah sarapan…",
     "Menghitung PR yang belum dikumpulkan…",
     "Menghapus alasan telat kami…",
     "Hampir selesai…"
@@ -33,7 +33,7 @@ var CONFIG = {
 
   // Teks papan tulis. emoji = stiker setelah kalimat selesai, shake = layar bergetar
   jokes: [
-    { text: "Tenang {guru}, ini bukan prank terakhir kok. 😎", emoji: "😎" },
+    { text: "Tenang Sir Ang, ini bukan prank terakhir kok. 😎", emoji: "😎" },
     { text: "Eh bercanda... hadiahnya yang asli ada di bawah. 🤭", emoji: "🤭", shake: true },
     { text: "Maaf ya, kelas kami memang suka ribut. 😅", emoji: "🙏" },
     { text: "Kalau ada yang bilang kami murid sempurna, itu hoaks wkwkwk 🤣", emoji: "🤣", shake: true },
@@ -49,7 +49,7 @@ var CONFIG = {
 
   // Foto: taruh file di folder "photos" lalu sesuaikan nama dan caption.
   photos: [
-    { src: "images/Sir_Ang_Aib1",  caption: "Aib Sir Ang #1" },
+    { src: "images/Sir_Ang_Aib1.png",  caption: "Aib Sir Ang #1" },
     { src: "photos/foto2.jpg",  caption: "Piket bareng" },
     { src: "photos/foto3.jpg",  caption: "Study tour" },
     { src: "photos/foto4.jpg",  caption: "Lomba kelas" },
