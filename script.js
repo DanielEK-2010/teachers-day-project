@@ -70,6 +70,7 @@ var CONFIG = {
     { src: "images/Sir_Ang_OSN4.png",  caption: "HMMMM" },
     { src: "images/Foto_XID1.png",  caption: "seruu" },
     { src: "images/Foto_XID2.png",  caption: "seruuuu" },
+    { src: "images/Sir_Ang_Berenang1.png",  caption: "meluncurrr" },
   ]
 };
 /* ===================================================== */
