@@ -49,10 +49,11 @@ var CONFIG = {
 
   // Foto: taruh file di folder "photos" lalu sesuaikan nama dan caption.
   photos: [
-    { src: "photos/Sir_Ang_Aib1.jpg",  caption: "Piket bareng" },
-    { src: "photos/Sir_Ang_Aib2.jpg",  caption: "Piket bareng" },
-    { src: "photos/Sir_Ang_Aib3.jpg",  caption: "Piket bareng" },
-    { src: "photos/Sir_Ang_Keren1.jpg",  caption: "Piket bareng" },
+    { src: "photos/Sir_Ang_Aib1.png",  caption: "Piket bareng" },
+    { src: "photos/Sir_Ang_Aib2.png",  caption: "Piket bareng" },
+    { src: "photos/Sir_Ang_Aib3.png",  caption: "Piket bareng" },
+    { src: "photos/Sir_Ang_Aib4.png",  caption: "Piket bareng" },
+    { src: "photos/Sir_Ang_Keren1.png",  caption: "Piket bareng" },
     { src: "photos/foto7.jpg",  caption: "Jam kosong" },
     { src: "photos/foto8.jpg",  caption: "Kerja kelompok" },
     { src: "photos/foto9.jpg",  caption: "Makan bareng" },
