@@ -68,8 +68,8 @@ var CONFIG = {
     { src: "images/Sir_Ang_OSN2.png",  caption: "makan" },
     { src: "images/Sir_Ang_OSN3.png",  caption: "makan" },
     { src: "images/Sir_Ang_OSN4.png",  caption: "makan" },
-    { src: "Foto_XID1.png",  caption: "seruu" },
-    { src: "Foto_XID2.png",  caption: "seruuuu" },
+    { src: "images/Foto_XID1.png",  caption: "seruu" },
+    { src: "images/Foto_XID2.png",  caption: "seruuuu" },
   ]
 };
 /* ===================================================== */
