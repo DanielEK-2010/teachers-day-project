@@ -35,7 +35,7 @@ var CONFIG = {
   jokes: [
     { text: "Tenang Sir Ang, ini bukan prank terakhir kok. 😎", emoji: "😎" },
     { text: "Eh bercanda... hadiahnya yang asli ada di bawah. 🤭", emoji: "🤭", shake: true },
-    { text: "Maaf ya, kelas kami memang suka ribut. 😅", emoji: "🙏" },
+    { text: "Maaf ya, kelas kami memang nakal. 😅", emoji: "🙏" },
     { text: "Kalau ada yang bilang kami murid sempurna, itu hoaks wkwkwk 🤣", emoji: "🤣", shake: true },
     { text: "Tapi serius, habis ini siap-siap baper ya. 🥹", emoji: "🥹" }
   ],
@@ -43,8 +43,8 @@ var CONFIG = {
   // Isi surat (satu item = satu paragraf)
   letter: [
     "Terima kasih sudah menjadi wali kelas yang sabar membimbing kami, bukan hanya di pelajaran, tapi juga saat kami sedang bingung dan salah arah.",
-    "Maaf kalau selama ini kami sering ribut, telat, atau bikin Ibu/Bapak pusing. Di balik itu semua, kami tahu perhatian dan nasihat Ibu/Bapak selalu untuk kebaikan kami.",
-    "Semoga Ibu/Bapak selalu sehat, bahagia, dan dimudahkan urusannya. Ilmu dan kebaikan yang diberikan akan kami bawa terus. Selamat Hari Guru! 💛"
+    "Maaf kalau selama ini kami sering ribut, telat, nakal, atau bikin sir pusing. Di balik itu semua, kami tahu perhatian dan nasihat sir selalu untuk kebaikan kami.",
+    "Semoga sir selalu sehat, bahagia, dan dimudahkan urusannya. Ilmu dan kebaikan yang diberikan akan kami bawa terus. Selamat Hari Guru! 💛"
   ],
 
   // Foto: taruh file di folder "photos" lalu sesuaikan nama dan caption.
