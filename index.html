@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Hadiah Spesial 🎁</title>
+  <meta name="theme-color" content="#f6d9c4">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <noscript><p class="noscript">Buka halaman ini di Chrome atau Safari dan pastikan JavaScript aktif ya, biar kejutannya jalan. 🙏</p></noscript>
+
+  <!-- Lapisan global -->
+  <div class="bg" id="bg" aria-hidden="true"></div>
+  <div class="side" aria-hidden="true">
+    <span class="sd l1">📚</span><span class="sd l2">✏️</span><span class="sd l3">🎒</span>
+    <span class="sd r1">🍎</span><span class="sd r2">🔔</span><span class="sd r3">🏫</span>
+  </div>
+  <div class="pop-layer" id="popLayer" aria-hidden="true"></div>
+  <nav class="dots" id="dots" aria-hidden="true"></nav>
+  <button class="sound-btn" id="soundBtn" aria-label="Suara hidup/mati">🔊</button>
+  <div class="curtain" id="curtain" aria-hidden="true"></div>
+
+  <!-- SCENE 1: Umpan -->
+  <section class="scene active" id="s1">
+    <div class="notif">
+      <div class="notif-head"><span>📩 Pesan baru · Sistem Sekolah</span><span>sekarang</span></div>
+      <div class="notif-badge">1</div>
+      <div class="gift" id="gift" role="button" tabindex="0" aria-label="Hadiah">🎁</div>
+      <p class="notif-title">Ada hadiah spesial buat <span data-bind="teacher"></span></p>
+      <p class="notif-sub">Hadiah kedaluwarsa dalam <b class="countdown" id="countdown">00:30</b></p>
+      <div class="btn-row">
+        <button class="btn btn-big" id="openGift">Buka Hadiah</button>
+        <button class="btn btn-light" id="dodge">Nanti saja</button>
+      </div>
+      <p class="tiny" id="dodgeMsg">Ketuk untuk membuka</p>
+    </div>
+  </section>
+
+  <!-- SCENE 2: Loading palsu -->
+  <section class="scene" id="s2">
+    <div class="loader-card">
+      <p class="loader-title">Mengunduh hadiah…</p>
+      <div class="bar"><i id="barFill"></i></div>
+      <p class="bar-pct" id="barPct">0%</p>
+      <p class="bar-msg" id="barMsg" aria-live="polite"></p>
+      <div class="error-box hidden" id="errBox">
+        <div class="err-icon">⚠️</div>
+        <p><b>ERROR 404:</b> hadiahnya ketinggalan di kantin 😭 wkwkwk</p>
+        <button class="btn" id="retry">Coba lagi 🔄</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- SCENE 3: Troll -->
+  <section class="scene" id="s3">
+    <h2 class="prank-text">WKWKWKWK kena prank <span class="clown">🤣</span></h2>
+    <div class="stamp">RICKROLLED</div>
+
+    <div class="video-box">
+      <span class="note n1">♪</span><span class="note n2">♫</span>
+      <span class="note n3">♬</span><span class="note n4">♪</span>
+      <div class="video-wrap">
+        <div id="ytHolder"></div>
+        <button class="play-overlay hidden" id="playOverlay" aria-label="Putar video">
+          <span>▶ Ketuk untuk memutar</span>
+        </button>
+        <div class="video-fallback hidden" id="videoFallback">
+          <p id="fbText"></p>
+          <a class="btn" id="fbLink" target="_blank" rel="noopener">▶ Putar videonya</a>
+        </div>
+      </div>
+    </div>
+
+    <p class="laugh-line" aria-hidden="true">🤣 😂 🤣 😂 🤣 😂 🤣</p>
+    <a class="small-link" id="ytLink" target="_blank" rel="noopener">Videonya tidak muncul? Buka di YouTube</a>
+    <button class="btn hidden" id="skipPrank">Oke oke, udah. Lanjut</button>
+  </section>
+
+  <!-- SCENE 4: Canda -->
+  <section class="scene" id="s4">
+    <div class="jokes" id="jokes" aria-live="polite"></div>
+    <button class="btn hidden" id="nextJokes">Lanjut</button>
+  </section>
+
+  <!-- SCENE 5: Surat -->
+  <section class="scene" id="s5">
+    <p class="hint" id="envHint">Ini yang asli. Ketuk amplopnya 💌</p>
+    <div class="stage" id="stage" role="button" tabindex="0" aria-label="Buka amplop">
+      <div class="envelope"></div>
+      <div class="letter-preview"></div>
+      <div class="front"></div>
+      <div class="flap"></div>
+      <div class="seal">♥</div>
+    </div>
+    <article class="letter" id="letter">
+      <div class="postmark">HARI GURU<br>25·11</div>
+      <div class="to" id="letterTo"></div>
+      <div id="letterBody"></div>
+      <div class="sign" id="letterSign"></div>
+    </article>
+    <button class="btn hidden" id="nextLetter">Lihat kenangan kami 📸</button>
+  </section>
+
+  <!-- SCENE 6: Foto -->
+  <section class="scene" id="s6">
+    <h2 class="section-title">Kenangan Kita 📸</h2>
+    <div class="marquee" aria-hidden="true"><div class="marquee-track" id="marquee"></div></div>
+    <p class="hint"><b id="photoCount"></b> kenangan · ketuk foto untuk memperbesar</p>
+    <div class="wall" id="wall"></div>
+    <button class="btn" id="nextPhotos">Lanjut ➜</button>
+  </section>
+
+  <!-- SCENE 7: Terima kasih -->
+  <section class="scene" id="s7">
+    <div class="big-heart">💛</div>
+    <p class="thanks-small">Selamat Hari Guru 🍎</p>
+    <h1 class="thanks-big" id="thanksTitle"></h1>
+    <p class="thanks-from">— <span data-bind="sender"></span>, <span data-bind="className"></span></p>
+    <div class="ribbon">TERIMA KASIH SUDAH JADI GURU TERBAIK KAMI 🤣💛</div>
+    <button class="btn" id="heartBtn">Kirim hati 💛 <span id="heartCount">0</span></button>
+    <p class="hint">Ketuk layar untuk kembang api 🎆</p>
+    <button class="btn btn-ghost" id="restart">Ulangi dari awal</button>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lb-close" id="lbClose" aria-label="Tutup">✕</button>
+    <button class="lb-nav prev" id="lbPrev" aria-label="Sebelumnya">‹</button>
+    <figure>
+      <div id="lbMedia"></div>
+      <figcaption id="lbCap"></figcaption>
+      <div class="lb-count" id="lbCount"></div>
+    </figure>
+    <button class="lb-nav next" id="lbNext" aria-label="Berikutnya">›</button>
+  </div>
+
+  <div class="fall-layer" id="fallLayer" aria-hidden="true"></div>
+  <canvas id="fx" aria-hidden="true"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
