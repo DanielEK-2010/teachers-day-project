@@ -3,7 +3,7 @@
    ===================================================== */
 var CONFIG = {
   teacher:   "Sir Ang",   // contoh: "Bu Sari"
-  sender:    "Totot, Xenon, Darrel, dan teman-teman lainnya",
+  sender:    "Totot, Xenon, Darrel",
   className: "XID",
 
   // false = animasi SELALU jalan (disarankan).
