@@ -71,8 +71,8 @@ var CONFIG = {
     { src: "images/Foto_XID1.png",  caption: "seruu" },
     { src: "images/Foto_XID2.png",  caption: "seruuuu" },
     { src: "images/Sir_Ang_Berenang1.png",  caption: "meluncurrr" },
-     {src: "WhatsApp Image 2026-11-22 at 22.56.58.jpeg", caption: "duta samsung"},
-     {src: "WhatsApp Image 2026-11-22 at 22.56.57.jpeg", caption: "bintang"}
+     {src: "sir_ang_sic (2).png", caption: "duta samsung"},
+     {src: "sir_ang_sic.png", caption: "bintang"}
   ]
 };
 /* ===================================================== */
