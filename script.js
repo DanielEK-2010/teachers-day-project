@@ -53,13 +53,21 @@ var CONFIG = {
     { src: "photos/Sir_Ang_Aib2.png",  caption: "Piket bareng" },
     { src: "photos/Sir_Ang_Aib3.png",  caption: "Piket bareng" },
     { src: "photos/Sir_Ang_Aib4.png",  caption: "Piket bareng" },
+    { src: "photos/Sir_Ang_Aib5.png",  caption: "Piket bareng" },
+    { src: "photos/Sir_Ang_Aib6.png",  caption: "Piket bareng" },
+    { src: "photos/Sir_Ang_Aib7.png",  caption: "Piket bareng" },
+    { src: "photos/Sir_Ang_Aib8.png",  caption: "Piket bareng" },
+    { src: "photos/Sir_Ang_Aib9.png",  caption: "Piket bareng" },
+    { src: "photos/Sir_Ang_Aib10.png",  caption: "Piket bareng" },
+    { src: "photos/Sir_Ang_Aib11.png",  caption: "Piket bareng" },
     { src: "photos/Sir_Ang_Keren1.png",  caption: "Piket bareng" },
-    { src: "photos/foto7.jpg",  caption: "Jam kosong" },
-    { src: "photos/foto8.jpg",  caption: "Kerja kelompok" },
-    { src: "photos/foto9.jpg",  caption: "Makan bareng" },
-    { src: "photos/foto10.jpg", caption: "Hari olahraga" },
-    { src: "photos/foto11.jpg", caption: "Upacara" },
-    { src: "photos/foto12.jpg", caption: "Selfie diam-diam" }
+    { src: "photos/Sir_Ang_Keren2.png",  caption: "Piket bareng" },
+    { src: "photos/Sir_Ang_Keren3.png",  caption: "Piket bareng" },
+    { src: "photos/Sir_Ang_Keren4.png",  caption: "Piket bareng" },
+    { src: "photos/Sir_Ang_OSN1.png",  caption: "Piket bareng" },
+    { src: "photos/Sir_Ang_OSN2.png",  caption: "Piket bareng" },
+    { src: "photos/Sir_Ang_OSN3.png",  caption: "Piket bareng" },
+    { src: "photos/Sir_Ang_OSN4.png",  caption: "Piket bareng" },
   ]
 };
 /* ===================================================== */
